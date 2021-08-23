@@ -1,0 +1,10 @@
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+
+use strict throws errors in the following cases
+1. Assigning to NaN, undefined
+2. creating variables without using let, var or const (ex: num = 5)
+    without use strict this kind of declaration is valid..as the variable gets created in global scope
+3. strict mode makes attempts to delete undeletable properties throw (where before the attempt would have no effect):
+4. strict mode requires that function parameter names be unique.
+5. a strict mode in ECMAScript 5 forbids a 0-prefixed octal literal or octal escape sequence.
+6. strict mode in ECMAScript 2015 forbids setting properties on primitive values.
